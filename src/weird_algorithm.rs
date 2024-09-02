@@ -1,4 +1,5 @@
 
+// https://cses.fi/problemset/task/1068/
 pub fn weird_algo(input: u32) {
     let mut num = input;
     

@@ -2,10 +2,7 @@
 pub fn weird_algo(input: u32) {
     let mut num = input;
     
-    // if num == 1 {
-    //     println!("{:?}",&num);
-    //     return;
-    // } 
+     
     let mut output: Vec<u32> = Vec::new();
     output.push(*(&num));
     let mask = 1 << 0;//even number test mask
